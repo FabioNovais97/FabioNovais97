@@ -1,3 +1,5 @@
+![Fabio Novais — Analista de Sistemas | Backend Developer](./assets/banner.svg)
+
 # Fabio Novais
 
 Tenho experiência profissional com processos de RH e gestão de benefícios e estou direcionando minha carreira para desenvolvimento de software, com foco em backend.
