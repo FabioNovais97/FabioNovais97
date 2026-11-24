@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#020814"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0879d8"/><stop offset="1" stop-color="#25c3ff"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b2949"/><stop offset="1" stop-color="#061323"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="400" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#07549a" stroke-width="2" opacity=".5">
+ <path d="M0 320 C170 235 210 395 390 300 S650 360 820 265"/>
+ <path d="M0 340 C170 255 210 415 390 320 S650 380 820 285"/>
+ <path d="M700 0h150l40 40h110l40-40h160"/>
+ <path d="M790 400v-72l55-55h110l48-48h197"/>
+ <path d="M1000 0v54l-45 45h-70l-42 42"/>
+</g>
+<g fill="none" stroke="url(#blue)" stroke-width="3" opacity=".9">
+ <path d="M0 310 C170 225 210 385 390 290 S650 350 820 255"/>
+ <path d="M870 0h115l45 45h90"/>
+ <path d="M970 400v-70l55-55h175"/>
+</g>
+<rect x="70" y="75" width="7" height="180" rx="3.5" fill="url(#blue)"/>
+<text x="112" y="160" fill="#f5f9ff" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700" letter-spacing="1">FABIO <tspan fill="#159eea">NOVAIS</tspan></text>
+<text x="114" y="220" fill="#e9f2ff" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="500">Analista de Sistemas | Backend Developer</text>
+<text x="114" y="278" fill="#b8c7d8" font-family="Arial,Helvetica,sans-serif" font-size="25">Python</text>
+<circle cx="210" cy="270" r="4" fill="#1da9f4"/>
+<text x="235" y="278" fill="#b8c7d8" font-family="Arial,Helvetica,sans-serif" font-size="25">Java</text>
+<circle cx="320" cy="270" r="4" fill="#1da9f4"/>
+<text x="346" y="278" fill="#b8c7d8" font-family="Arial,Helvetica,sans-serif" font-size="25">APIs REST</text>
+<circle cx="500" cy="270" r="4" fill="#1da9f4"/>
+<text x="526" y="278" fill="#b8c7d8" font-family="Arial,Helvetica,sans-serif" font-size="25">HR Tech</text>
+<g transform="translate(800 95)" filter="url(#glow)">
+ <path d="M90 20h250q12 0 12 12v150H78V32q0-12 12-12z" fill="#07111f" stroke="#159eea" stroke-width="4"/>
+ <rect x="94" y="38" width="222" height="124" rx="5" fill="url(#screen)"/>
+ <g stroke="#149fe9" stroke-width="5" stroke-linecap="round">
+  <path d="M117 62h78M117 82h145M117 102h105M117 122h160M117 142h88"/>
+ </g>
+ <path d="M55 190h320l-28 26H82z" fill="#0b3152" stroke="#159eea" stroke-width="3"/>
+ <path d="M0 230h420" stroke="#0c5a9a" stroke-width="2" opacity=".5"/>
+</g>
+<text x="720" y="210" fill="#0c91df" font-family="monospace" font-size="56" font-weight="700" opacity=".9">&lt;/&gt;</text>
+</svg>
